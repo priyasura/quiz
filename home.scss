@@ -1,0 +1,99 @@
+#home{
+    // background-image:url('../../project/src14.png');
+    background-size:right ;
+    background-color: whitesmoke;
+    background-position: center;
+    display: flex;
+    justify-content:flex-end ;
+    height: 100vh;
+    width: 100vw;
+    background-position: sticky;
+    background-repeat: no-repeat;
+    // margin-right: initial;
+    // // text-align: right;
+    .image{
+        width: 80%;
+
+    }
+    section{
+        // background-color:rgba(0,0,0,0.7);
+        background-color:rgb(218,241,245) ;
+        width: 60%;
+        margin-right:50px;
+        padding-right: 2rem;
+        padding-right: 2rem;
+        border-radius: 5px;    
+    }
+    .cubes{
+        // color:rgb(7,142,162);
+        color: rgb(26,107,107);
+         font-size: 8rem;
+        //  text-align: center;
+    }
+    h1{
+        text-align: center;
+        color: rgb(254,204,44);
+        font-family: Showcard Gothic;
+        font-size: 60px;
+    }
+    .play-button-container{
+        width: 100%;
+        padding: 50px;
+         text-align: center;
+         margin-bottom:-150px;
+        
+        // width:413px;
+        // height:65px;
+    }
+    a.play{
+        // background-color: rgb(216,236,134);
+        background-color: rgb(32,132,147);
+        color:white;
+        border-radius: 35px;
+        cursor: pointer;
+        display: block;
+        padding: normal 0;
+        text-align: center;
+        height: 60px;
+        transition: 0.3% linear all;    
+    }
+    a.play:hover{
+        background-color: darken(rgb(32,132,147),10%);
+    }
+    .auth-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        transition: 0.5% linear all;
+
+    }
+   
+    .auth{
+       color:white;
+       size:35px ;
+        cursor: pointer;
+        border-radius: 35px;
+        padding: normal 0;
+        text-align: center;
+        margin-top: 200px;
+        transition: 0.5% linear all;
+      
+    }
+    #signup-button.hover{
+       
+        background-color: darken(#0f2a55,30%);
+    }
+    #login-button.hover{
+        background-color: #0f2a55;
+    }
+}
+@media(max-width:731px){
+    #home section{
+        padding:0;
+        width: 100%;
+        height:100%
+
+
+    }
+}
+
